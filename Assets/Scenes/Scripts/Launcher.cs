@@ -34,6 +34,10 @@ public class Launcher : MonoBehaviourPunCallbacks
         Instance = this;
     }
 
+    public void Quit()
+    {
+        Application.Quit();
+    }
 
     void Start()
     {

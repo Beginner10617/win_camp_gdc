@@ -7,11 +7,11 @@ public class Ready : MonoBehaviourPunCallbacks
 {
     [SerializeField]
     private bool is_ready;
-
     private void Start()
     {
         is_ready = false;
         Debug.Log("Press space to ready");
+        
     }
 
     private void Update()

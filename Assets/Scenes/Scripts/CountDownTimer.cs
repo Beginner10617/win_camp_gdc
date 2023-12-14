@@ -27,7 +27,7 @@ public class CountDownTimer : MonoBehaviour
     void Start()
     {
         is_chat_active = false;
-        timer = 5f;
+        timer = 120f;
     }
     
 
